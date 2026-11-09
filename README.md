@@ -5,7 +5,7 @@ Electron 程序逆向练习，这种程序其实没啥逆向的意义，因为�
 
 程序还是有不少防护的，没有深入分析 native 层，但是简单分析就找到了 asar 的完整性检查、dll 的完整性检查、反 dll 注入、遍历文件夹删除未签名 dll、VMP 保护核心函数等。
 
-但是攻击面仍然很好找，校验都在 BaiduNetdisk.exe，所以直接打 BaiduNetdiskUnite.exe 即可。
+但是攻击面仍然很好找，校验都在 BaiduNetdisk.exe 及其加载的 dll，所以直接打 BaiduNetdiskUnite.exe 即可。
 
 遍历文件夹删除未签名 dll 这一点尤其好玩，已经被程序加载的 dll 根本删不掉，所以这防护等于没做。
 
