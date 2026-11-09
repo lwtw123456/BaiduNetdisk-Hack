@@ -5,4 +5,22 @@ Electron 程序逆向练习，实现了百度云盘一些实用本地功能的�
 
 但是攻击面仍然很好找。
 
-至于服务端功能，就别想了。高速下载，嗯，能持续一秒。
+至于服务端功能，就别想了。高速下载嘛。。。嗯，能持续一秒。
+
+## Credits
+
+DLL Proxy 部分基于 **AheadLibEx**：
+
+```text
+https://github.com/i1tao/AheadLibEx
+```
+
+Author: i1tao
+
+## Disclaimer
+
+本项目仅用于 **逆向工程技术研究与学习交流**。
+
+## License
+
+MIT License
